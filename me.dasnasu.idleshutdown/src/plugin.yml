@@ -1,0 +1,16 @@
+name: IdleShutdown
+version: Release 0.0.1
+description: A Plugin, that allows to shutdown or reboot the Server after a period of idlestate.
+author: DasNasu
+main: me.dasnasu.idleshutdown.IdleShutdown
+
+commands:
+    rebootbukkit:
+        description: Reboots the bukkit server for support purposes.
+        usage: /<command>
+        permission: idleshutdown.rebootbukkit
+        aliases: [reboot]
+    rebootserver:
+        description: Reboots the Server.
+        usage: /<command>
+        permission: idleshutdown.rebootserver
